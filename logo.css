@@ -1,0 +1,264 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(230, 230, 230);
+    }
+    
+    .firstSection{
+        background-color:rgb(235, 190, 94);
+        margin:0;
+        padding:0;
+        height: 100%;
+        width: 100%;
+    
+    }
+
+
+    #weather-widget {
+        display: inline-block;
+        position: relative;
+        left: 1000px;
+        background: rgb(98, 184, 237);
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        width: 300px;
+        height: 200px;
+    }
+    
+    #weather-info {
+        margin: 10px 0;
+    }
+    
+    #temperature {
+        font-size: 1em;
+        font-weight: bold;
+    }
+    
+    #weather-description {
+        font-size: 1em;
+    }
+    
+    #weather-icon img {
+        width: 100px;
+        height: 100px;
+    }
+
+  
+    .header{
+        
+        margin-top:-200px;
+        padding:0;
+        height: 220px;
+        width: 100%;
+        display: inline-block;
+        
+    }
+    
+    .firstName{ 
+        
+        
+        margin-left: 500px;
+        color: white;
+        font-size: 70px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .lastName{
+        
+        color: rgb(233, 226, 186);
+        font-size: 70px;
+        display: inline-block;
+        cursor: pointer;
+        
+    }
+    
+    
+    .subheading{
+        text-align: center;
+        color:rgb(75, 72, 72);
+    }
+    
+    .description{
+        text-align: center;
+        color:rgb(248, 231, 136);
+    }
+    
+    
+    .logobutton{
+        height:60px;
+        width: 250px;
+        border-radius: 50px;
+        background-color: rgb(110, 110, 110);
+        color: white;
+        cursor: pointer;
+        margin-left: 600px;
+        margin-top: 50px;
+    
+    
+    }
+    
+    
+    
+    .secondSection{
+        background-color:rgb(235, 190, 94) ;
+        height: 400px;
+        width: 100%;
+         
+    }
+    
+    .slideSection{
+      
+        background:linear-gradient(to right, white, transparent);
+        height: 400px;
+        width: 100%;
+        
+        
+    }
+    
+    
+    .image{
+      position: relative;
+      left:200px;
+      top:-60px;
+      height:400px;
+      width: 600px;
+      margin:0;
+      opacity: 0.6;
+    }
+    
+    .text{
+      display: inline-block;
+      position: relative;
+      left:80px;
+      right:400px;
+      top:-30px;
+      height:  100%;
+      max-width: 500px;
+     
+      
+    }
+    
+    .author{
+      display: inline-block;
+      position: relative;
+      left: 50px;
+      
+    }
+    
+    .author p{
+        position: relative;
+        top:-100;
+        left:70px;
+    }
+    
+    .author1, .author2, .author3{
+      position: relative;
+      bottom:30px;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+    }
+    
+
+    blockquote {
+      border: none;
+      max-width: 100%;
+      max-height: 100%;
+      margin-left: 80px;
+      left: 100px;
+      color:rgb(202, 43, 43);
+        
+    }
+
+    
+    blockquote p {
+      font-size: 18px;
+      font-family: Georgia, serif;
+      line-height: 25px;
+     
+    }
+    
+    
+    blockquote:before {
+      content: open-quote;
+      font-weight: bold;
+      font-size: 80px;
+      color: #c9e239;
+      
+    }
+    
+    blockquote:after {
+      content:close-quote;
+      font-weight: bold;
+      font-size: 80px;
+      color: #889c0b;
+     
+    }
+    
+
+
+      .dot {
+        height: 18px;
+        width: 18px;
+        margin: 0 2px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 1s ease;
+        cursor: pointer;
+      }
+
+       
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+      }
+
+
+
+
+.thirdSection{
+
+    width: 100%;
+    height:100%;
+}
+
+.brandimages{
+    text-align: center;
+
+}
+
+.brandimage{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    opacity: 0.7; 
+    padding: 50px;
+   
+
+}
+
+.imagesection .laptop{
+    display: inline-block;
+    margin-left: 300px;
+    width: 280px;
+    height: 300px;
+}
+
+.imagesection .saturn{
+    padding: 0;
+    margin-left: 130px;
+}
